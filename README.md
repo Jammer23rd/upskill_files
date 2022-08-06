@@ -1,24 +1,20 @@
-![N|Solid](https://upskill.pt/wp-content/uploads/2021/10/Logo_UPskill_VERDE-1.jpg)
+![UPSkill](https://upskill.pt/wp-content/uploads/2021/10/Logo_UPskill_VERDE-1.jpg)
 
-# Innovative Logistics
-```sh
-Flávio Eleutério
-```
-```sh
-Rogélio Ribeiro
-```
-```sh
-Márcio Clara
-```
 
-## Frontend
+|Innovative Logistics |Links |
+| ------ | ------ |
+|Flávio Eleutério| [GitHub](https://github.com/Jammer23rd) - [Email](mailto:flavioept@gmail.com) - [Telefone](tel:00351918396034)|
+|Rogélio Ribeiro| [GitHub](https://github.com/Rovez) - [Email](mailto:rogelioribeiro@hotmail.com) - [Telefone](tel:00351935429255) |
+|Márcio Clara|[GitHub](https://github.com/MClara10) - [Email](mailto:marcio_clara@hotmail.com) - [Telefone](tel:00351916817578)|
+
+# Frontend
 
 > Static Web App
 - Criar uma Static Web App
 - Definir Github como source do deployment
 - Clonar e usar seguinte repositório de Github - [Aqui](https://github.com/Jammer23rd/webrfid) 
 
-## Backend
+# Backend
 
 > Azure Database for SQL
 - Criar Azure Database for SQL
@@ -32,7 +28,7 @@ mysql -- host={server_name}.database.azure.com --user={server_admin_name}@{serve
 - Correr script de criação de dados para teste - [database_creation _backup.sql](https://github.com/Jammer23rd/upskill_files) 
 - Correr script de criação de utilizador teste - [create_test_user.sql](https://github.com/Jammer23rd/webrfid) 
 
-#### Passos não totalmente implementados 
+####  Arquitetura não totalmente implementada
 
 > Azure Function
 - Na integração na página tracking do website
@@ -43,8 +39,11 @@ mysql -- host={server_name}.database.azure.com --user={server_admin_name}@{serve
 - JS das Azure Functions criada - [Aqui](https://github.com/Jammer23rd/upskill_files) 
 
 > IOT Hub
-- Total integração de IOT Hub com leitores de RFID
+- Integração de IOT Hub com leitores de RFID
 - Criação efetuada na plataforma Azure
 - Integração parcial / Ineficaz com a base de dados MySQL através da Stream Analytics
+####  Arquitetura não implementada
+> Stream Analytics
+- Não implementado
 
-
+file made in dilinger.io 
