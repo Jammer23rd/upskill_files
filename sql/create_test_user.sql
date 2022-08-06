@@ -1,0 +1,2 @@
+CREATE USER 'teste' IDENTIFIED BY 'upskill';
+GRANT ALL PRIVILEGES ON *.* TO 'teste';

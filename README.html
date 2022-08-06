@@ -1,0 +1,56 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Dillinger.md</title><style></style></head><body id="preview">
+<p class="has-line-data" data-line-start="0" data-line-end="1"><img src="https://upskill.pt/wp-content/uploads/2021/10/Logo_UPskill_VERDE-1.jpg" alt="N|Solid"></p>
+<h1 class="code-line" data-line-start=2 data-line-end=3><a id="Innovative_Logistics_2"></a>Innovative Logistics</h1>
+<pre><code class="has-line-data" data-line-start="4" data-line-end="6" class="language-sh">Flávio Eleutério
+</code></pre>
+<pre><code class="has-line-data" data-line-start="7" data-line-end="9" class="language-sh">Rogélio Ribeiro
+</code></pre>
+<pre><code class="has-line-data" data-line-start="10" data-line-end="12" class="language-sh">Márcio Clara
+</code></pre>
+<h2 class="code-line" data-line-start=13 data-line-end=14><a id="Frontend_13"></a>Frontend</h2>
+<blockquote>
+<p class="has-line-data" data-line-start="15" data-line-end="16">Static Web App</p>
+</blockquote>
+<ul>
+<li class="has-line-data" data-line-start="16" data-line-end="17">Criar uma Static Web App</li>
+<li class="has-line-data" data-line-start="17" data-line-end="18">Definir Github como source do deployment</li>
+<li class="has-line-data" data-line-start="18" data-line-end="20">Clonar e usar seguinte repositório de Github - <a href="https://github.com/Jammer23rd/webrfid">Aqui</a></li>
+</ul>
+<h2 class="code-line" data-line-start=20 data-line-end=21><a id="Backend_20"></a>Backend</h2>
+<blockquote>
+<p class="has-line-data" data-line-start="22" data-line-end="23">Azure Database for SQL</p>
+</blockquote>
+<ul>
+<li class="has-line-data" data-line-start="23" data-line-end="24">Criar Azure Database for SQL</li>
+<li class="has-line-data" data-line-start="24" data-line-end="25">Abrir Powershell no Azure</li>
+<li class="has-line-data" data-line-start="25" data-line-end="26">Correr o seguinte comando:</li>
+</ul>
+<pre><code class="has-line-data" data-line-start="27" data-line-end="29" class="language-sh">mysql -- host={server_name}.database.azure.com --user={server_admin_name}@{server} -p
+</code></pre>
+<ul>
+<li class="has-line-data" data-line-start="29" data-line-end="30">Colocar password quando requerida</li>
+<li class="has-line-data" data-line-start="30" data-line-end="31">Correr script de backup de dase de dados - <a href="https://github.com/Jammer23rd/upskill_files">database_fields_backup.sql</a></li>
+<li class="has-line-data" data-line-start="31" data-line-end="32">Correr script de criação de dados para teste - <a href="https://github.com/Jammer23rd/upskill_files">database_creation _backup.sql</a></li>
+<li class="has-line-data" data-line-start="32" data-line-end="34">Correr script de criação de utilizador teste - <a href="https://github.com/Jammer23rd/webrfid">create_test_user.sql</a></li>
+</ul>
+<h4 class="code-line" data-line-start=34 data-line-end=35><a id="Passos_no_totalmente_implementados_34"></a>Passos não totalmente implementados</h4>
+<blockquote>
+<p class="has-line-data" data-line-start="36" data-line-end="37">Azure Function</p>
+</blockquote>
+<ul>
+<li class="has-line-data" data-line-start="37" data-line-end="38">Na integração na página tracking do website</li>
+<li class="has-line-data" data-line-start="38" data-line-end="39">Recolher info do &lt;input name=tag&gt; ao pressionar o botão</li>
+<li class="has-line-data" data-line-start="39" data-line-end="40">Verificar existência de tag na tabela tag da Base de dados</li>
+<li class="has-line-data" data-line-start="40" data-line-end="41">Erro ou Envio de localização de tag</li>
+<li class="has-line-data" data-line-start="41" data-line-end="42">Integração na API do google maps para visualização</li>
+<li class="has-line-data" data-line-start="42" data-line-end="44">JS das Azure Functions criada - <a href="https://github.com/Jammer23rd/upskill_files">Aqui</a></li>
+</ul>
+<blockquote>
+<p class="has-line-data" data-line-start="44" data-line-end="45">IOT Hub</p>
+</blockquote>
+<ul>
+<li class="has-line-data" data-line-start="45" data-line-end="46">Total integração de IOT Hub com leitores de RFID</li>
+<li class="has-line-data" data-line-start="46" data-line-end="47">Criação efetuada na plataforma Azure</li>
+<li class="has-line-data" data-line-start="47" data-line-end="48">Integração parcial / Ineficaz com a base de dados MySQL através da Stream Analytics</li>
+</ul>
+</body></html>
